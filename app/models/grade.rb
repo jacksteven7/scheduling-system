@@ -1,4 +1,4 @@
 class Grade < ApplicationRecord
-  has_many :grades_enrrolments
-  has_many :students, through: :grades_enrrolments
+  has_many :grade_enrollments
+  has_many :students, through: :grade_enrollments
 end
